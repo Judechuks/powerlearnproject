@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+  </head>
+
+  <body>
+    <h1>Student Form</h1>
+    <div>
+      <h3>Enter your Details Correctly</h3>
+      <form action="" method="">
+        <label for="name">Name </label>
+        <input type="text" name="name" id="name" required />
+        <br />
+        <br />
+        <label for="DateOfBirth"> Date Of Birth: </label>
+        <input type="date" id="DateOfBirth" name="DateOfBirth" required />
+        <br />
+        <br />
+        <label> Gender: </label> <br />
+        <label for="male"> Male </label>
+        <input type="radio" id="male" name="gender" value="Male" required />
+        <label for="female"> Female </label>
+        <input type="radio" id="female" name="gender" value="Female" required />
+        <br />
+        <br />
+        <label for="address">Address: </label>
+        <input type="text" id="address" name="address" required />
+        <br />
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="phone" required />
+        <br />
+        <br />
+        <label for="email"> Email Address: </label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <br />
+        <label for="course"> Course: </label>
+        <select id="course" name="course" required>
+          <option selected="selected" disabled="disabled">
+            ...Select Class...
+          </option>
+          <option>Database Design</option>
+          <option>Software Engineering</option>
+          <option>Entrepreneurship</option>
+          <option>Python Programming</option>
+          <option>Dart Programming</option>
+          <option>Web Development</option>
+        </select>
+        <br />
+        <br />
+        <button type="submit">SUBMIT</button>
+        <button type="reset">CANCEL</button>
+      </form>
+    </div>
+  </body>
+</html>
