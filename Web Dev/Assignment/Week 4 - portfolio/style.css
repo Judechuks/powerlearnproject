@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #080808;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.452)),
+    url(./images/dev-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  padding: 10px 10%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.125rem; /*18px*/
+  color: #fff;
+  position: relative;
+}
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 3px;
+  width: 0;
+  background-color: #5900ff;
+  transition: 0.5s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+.header-text {
+  margin-top: 20%;
+  font-size: 1.875rem; /*30px*/
+}
+.header-text h1 {
+  margin-top: 20px;
+  font-size: 3.75rem; /*60px*/
+}
+.header-text h1 span,
+header span {
+  color: #5900ff;
+}
+
+/* About Section */
+#about {
+  padding: 80px 0;
+  color: #ababab;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1 {
+  flex-basis: 35%;
+}
+.about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+.about-col-2 {
+  flex-basis: 60%;
+}
+.sub-title {
+  font-size: 3.75rem; /*60px*/
+  font-weight: 700;
+  color: #fff;
+}
+
+/*----- Button -----*/
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #5900ff;
+  border-radius: 6px;
+  padding: 14px 30px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+.btn:hover {
+  background-color: #5900ff;
+}
+
+/* Skills Section */
+#skills {
+  margin-bottom: 50px;
+}
+#skills li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+li span {
+  display: block;
+  color: #5900ff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/*========== Contact ==========*/
+/*----- Contact-left Column -----*/
+.contact-left {
+  flex-basis: 35%;
+}
+.contact-left h1 {
+  margin-bottom: 30px;
+}
+.contact-left p {
+  margin-bottom: 30px;
+}
+.contact-left p i {
+  margin-right: 15px;
+  color: #5900ff;
+  font-size: 1.5625rem; /*25px*/
+}
+
+/*------- Social Icon -------*/
+.social-icons {
+  cursor: pointer;
+  font-size: 1.5625rem; /*25px*/
+  margin-top: 30px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 1.875rem; /*30px*/
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icons a:hover {
+  transform: translateY(-5px);
+}
+.fa-heart,
+.fa-instagram:hover {
+  color: rgb(200, 0, 0);
+}
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-facebook:hover {
+  color: rgb(0, 0, 190);
+}
+.btn.btn2 {
+  display: inline-block;
+  background-color: #5900ff;
+}
+.btn.btn2:hover {
+  background-color: transparent;
+}
+
+/*----- Contact-right Column -----*/
+.contact-right {
+  flex-basis: 60%;
+}
+.contact-right form {
+  width: 96%;
+}
+.contact-right form input,
+.contact-right form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 1.125rem; /*18px*/
+  border-radius: 6px;
+}
+form .btn2 {
+  padding: 14px 60px;
+  font-size: 1.125rem; /*18px*/
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/*========== FOOTER ==========*/
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 25px 10px;
+  background-color: #262626;
+}
+.footer h2 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 800;
+  color: #fff;
+}
+.footer p {
+  margin-top: 20px;
+}
+
+/*==================== MEDIA QUERIES ====================*/
+nav .fas {
+  display: none;
+}
+
+@media only screen and (max-width: 1190px) {
+  .contact-left .btn.btn2 {
+    display: block;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .contact-right {
+    flex-basis: 46%;
+  }
+  .contact-left {
+    flex-basis: 49%;
+  }
+  .sub-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 637px) {
+  nav .fas {
+    display: block;
+    font-size: 1.5625rem; /*25px*/
+  }
+  nav ul {
+    background: #5900ff;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+}
+/*======= Media Queries For Small Screens =======*/
+@media only screen and (max-width: 600px) {
+  .header-text {
+    margin-top: 50%;
+    font-size: 1rem; /*16px*/
+  }
+  .header-text h1 {
+    font-size: 1.875rem; /*30px*/
+  }
+  .about-col-1 {
+    margin-bottom: 30px;
+  }
+  .about-col-2 {
+    font-size: 0.875rem; /*14px*/
+  }
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+  .contact-right form {
+    width: 90%;
+  }
+  .footer h2 {
+    font-size: 1rem; /*16px*/
+  }
+  .footer p {
+    font-size: 0.875rem; /*14px*/
+  }
+  .footer a {
+    font-size: 1.25rem; /*20px*/
+  }
+}
+
+/*==== XS Screen Sizes ====*/
+@media screen and (max-width: 260px) {
+  .header-text {
+    font-size: 0.875rem; /*14px*/
+  }
+  .header-text h1 {
+    font-size: 1.625rem; /*26px*/
+  }
+  nav .fas {
+    font-size: 1.375rem; /*22px*/
+  }
+  .sub-title {
+    font-size: 1.875rem; /*30px*/
+  }
+  .about-col-2 {
+    font-size: 0.6875rem; /*11px*/
+  }
+  .contact-right form {
+    width: 95%;
+  }
+  .contact-left .fas {
+    display: block;
+    padding-bottom: 15px;
+  }
+  .social-icons .fab {
+    font-size: 1.125rem; /*18px*/
+  }
+  .footer h2 {
+    font-size: 1rem; /*16px*/
+  }
+  .footer p {
+    font-size: 0.75rem; /*12px*/
+  }
+  .footer a {
+    font-size: 1rem; /*16px*/
+  }
+}

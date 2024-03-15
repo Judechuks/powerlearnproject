@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Portfolio</title>
+    <meta name="author" content="JudeChuks, 14/03/2024" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+
+    <!-- Poppins Font Family Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!--------- Header  --------->
+    <header id="header">
+      <div class="container">
+        <nav>
+          <h2><span>M</span>onye <span>J</span>ude</h2>
+          <ul id="side-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times"></i>
+          </ul>
+          <i class="fas fa-bars"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi! I'm <span>Jude</span> <br />Monye From Nigeria</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-------- About Section -------->
+    <section id="about">
+      <div class="container">
+        <section class="row">
+          <div class="about-col-1">
+            <img src="./images/user.jpeg" alt="User" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm a web designer and developer, with the intent of providing
+              quality web designs coupled with wonderful user interfaces that
+              will lead to best user experience which in turn will increase your
+              productivity and end up reaching out to more customers.
+            </p>
+            <a href="./images/my-cv.pdf" class="btn btn2" target="_blank"
+              >View CV</a
+            >
+            <!--download="nameofchoice" = this will automatically rename the file-->
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="content">
+          <ul>
+            <li>
+              <span>UI/UX</span>
+              Designing Web/App Interfaces
+            </li>
+            <li>
+              <span>Web Design & Development</span>
+              Web App Development
+            </li>
+            <li>
+              <span>App Development</span>
+              Building Android/iOS Apps
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Contact  ---------->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> Contact@judechuks.com</p>
+            <p><i class="fas fa-phone-square"></i> 08144638926</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/jude.chuks.583" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/Mhizter_JayCee" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://instagram.com/judechuks_" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com/in/monye-jude" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form action="" method="post">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required />
+              <textarea
+                rows="6"
+                name="Message"
+                placeholder="Enter Message"
+                required></textarea>
+              <button type="submit" class="btn btn2">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Footer  ---------->
+    <footer class="footer">
+      <h2>Get in touch with me</h2>
+      <p>
+        If you dream of getting the best user interfaces and experience then you
+        are at the right place. <br />
+        Leverage the opportunity that you have and reach out to me to give you
+        the best user interfaces and experience that you dream of.
+      </p>
+      <div class="social-icons">
+        <a href="https://facebook.com/jude.chuks.583" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/Mhizter_JayCee" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://instagram.com/judechuks_" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://linkedin.com/in/monye-jude" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <p>Copyright &copy; Judechuks <i class="fa fa-heart"></i></p>
+    </footer>
+  </body>
+</html>
