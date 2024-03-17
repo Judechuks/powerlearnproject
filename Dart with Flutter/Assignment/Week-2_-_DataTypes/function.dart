@@ -33,5 +33,5 @@ void main() {
   print("$num1 x $num2 = ${multiplyTwo(num1, num2)}");
   print("$num1 / $num2 = ${divideTwo(num1, num2)}");
   print("The length of the word $string1 = ${stringLength(string1)}");
-  print("The first item in the $myList is ${getFirstElement(myList)}");
+  print("The first item in the list $myList is ${getFirstElement(myList)}");
 }
