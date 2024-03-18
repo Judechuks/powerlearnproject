@@ -1,0 +1,8 @@
+man
+woman
+child
+baby
+father
+mother
+aunt
+uncle
