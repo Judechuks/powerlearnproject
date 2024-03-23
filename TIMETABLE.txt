@@ -6,7 +6,7 @@ DAY | COURSE               |TUTOR CONTACT                          | WEBINAR LIN
 MON | SOFTWARE ENGINEERING |                                       | https://powerlearnproject-org.zoom.us/webinar/register/WN_pChjaC0cRGenPBTHsrSD8g
 MON | ENTREPRENEURSHIP     |                                       | https://powerlearnproject-org.zoom.us/webinar/register/WN_ApmNWaNWRkSsdriWJt_c_A
 ------------------------------------------------------------------------------------------------------
-TUE | WEB DEVELOPMENT      |                                       | https://powerlearnproject-org.zoom.us/webinar/register/WN_njXLeJrQTUSxyPimI0acQg
+TUE | WEB DEVELOPMENT      | eddy@powerlearnproject.org            | https://powerlearnproject-org.zoom.us/webinar/register/WN_njXLeJrQTUSxyPimI0acQg
 ------------------------------------------------------------------------------------------------------
 WED | PYTHON DEVELOPMENT   | annebellewafula@powerlearnproject.org | https://powerlearnproject-org.zoom.us/webinar/register/WN_IwwgjWjkRlWK055J7mbHcA
 ------------------------------------------------------------------------------------------------------
