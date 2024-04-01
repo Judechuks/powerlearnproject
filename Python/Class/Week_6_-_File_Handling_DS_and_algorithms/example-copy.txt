@@ -1,0 +1,2 @@
+Hello, this is written from read_and_write.py code
+Just for testing.

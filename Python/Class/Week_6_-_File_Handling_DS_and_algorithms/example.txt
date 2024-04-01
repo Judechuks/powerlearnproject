@@ -1,0 +1,2 @@
+This file was create so that the read_and_write.py program can read from this code
+This output code was written from read_and_write.py but the output content is from example.txt
