@@ -1,0 +1,9 @@
+Hello, World! This is the first line.
+The second line has a number: 42.
+And the third line says goodbye.
+Appending this fourth line.
+Followed bt this line.
+And then lastly this line of text.
+Appending this fourth line.
+Followed bt this line.
+And then lastly this line of text.
