@@ -1,0 +1,91 @@
+-- CREATE DATABASE Franchise;
+
+-- USE Franchise;
+
+-- CREATE TABLE Customer(
+--   CustomerID INT PRIMARY KEY,
+--   Name VARCHAR(255),
+--   Email VARCHAR(255),
+--   PhoneNumber VARCHAR(15)
+-- );
+
+-- INSERT INTO Customer(CustomerID, Name, Email, PhoneNumber)
+-- VALUES
+-- (101, "Oforkansi Franklin", "franklin33@gmail.com", "08143434343"),
+-- (102, "Chukwubueze Amanda", "amadaeze3@gmail.com", "08144434342"),
+-- (103, "Chukwuma Cynthia", "cyndi36@gmail.com", "08143222434");
+
+-- CREATE TABLE Membership(
+--   MembershipID INT PRIMARY KEY,
+--   CustomerID INT,
+--   StartDate date,
+--   ExpiryDate date,
+--   FOREIGN KEY(CustomerID) REFERENCES Customer(CustomerID) # One-To-One Relationship
+-- );
+
+-- INSERT INTO Membership(MembershipID, CustomerID, StartDate, ExpiryDate)
+-- VALUES
+-- (1, 101, "2022-03-10", "2027-07-03"),
+-- (2, 102, "2023-07-22", "2030-02-10"),
+-- (3, 103, "2021-04-20", "2025-04-13");
+
+# To delete a databse 
+-- DROP DATABSE <databaseName>
+-- DROP DATABASE Student
+
+-- CREATE TABLE Menu(
+--   DishID INT PRIMARY KEY,
+--   DishName VARCHAR(255),
+--   Description VARCHAR(255),
+--   Price Decimal(64,2) # whole numbers 64 characters and 2 decimal points 
+-- );
+
+-- INSERT INTO Menu(DishID, DishName, Description, Price)
+-- VALUES
+-- (1, "Pizza", "Margherita", "35.99"),
+-- (2, "Burger", "Cheeseburger", "80.80"),
+-- (3, "Salad", "Caeser Salad", "63.90");
+
+-- CREATE TABLE Orders(
+--   OrderID INT PRIMARY KEY,
+--   CustomerID INT,
+--   DishID INT,
+--   Quantity INT,
+--   OrderDate DATE,
+--   # The relationships
+--   FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID), 
+--   FOREIGN KEY (DishID) REFERENCES Menu(DishID)
+-- );
+
+-- INSERT INTO Orders(OrderID, CustomerID, DishID, Quantity, OrderDate)
+-- VALUES
+-- (1, 101, 1, 2, "2024-03-08"),
+-- (2, 102, 2, 1, "2024-03-08"),
+-- (3, 103, 3, 3, "2024-03-08");
+
+# Many-To-Many Relationship
+# Dishes table compared to Ingredients table, DishIngredients table
+
+-- CREATE TABLE Ingredients(
+--   IngredientsID INT PRIMARY KEY,
+--   IngredientsName VARCHAR(255)
+-- );
+
+-- INSERT INTO Ingredients(IngredientsID, IngredientsName)
+-- VALUES
+-- (1, "Tomato"),
+-- (2, "Mozzarella"),
+-- (3, "Lettuce"),
+-- (4, "Beef Patty"),
+-- (5, "Bun"),
+-- (6, "Caesar Dressing");
+
+-- CREATE TABLE DishIngredients(
+--   DishID INT,
+--   IngredientsID INT,
+--   # The Relationahip
+--   FOREIGN KEY (DishID) REFERENCES Menu(DishID), 
+--   FOREIGN KEY (IngredientsID) REFERENCES Ingredients(IngredientsID),
+--   PRIMARY KEY (DishID, IngredientsID)
+-- );
+
