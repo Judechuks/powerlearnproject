@@ -3,14 +3,14 @@ TIMETABLE FOR PLP LEARNING ACADEMY FEB 2024 COHORT
 ------------------------------------------------------------------------------------------------------
 DAY | COURSE               |TUTOR CONTACT                          | WEBINAR LINK 
 ------------------------------------------------------------------------------------------------------
-MON | SOFTWARE ENGINEERING |                                       | https://powerlearnproject-org.zoom.us/webinar/register/WN_pChjaC0cRGenPBTHsrSD8g
-MON | ENTREPRENEURSHIP     |                                       | https://powerlearnproject-org.zoom.us/webinar/register/WN_ApmNWaNWRkSsdriWJt_c_A
+MON | SOFTWARE ENGINEERING | kamausuzan711@gmail.com               | https://powerlearnproject-org.zoom.us/webinar/register/WN_pChjaC0cRGenPBTHsrSD8g
+MON | ENTREPRENEURSHIP     | nellyalili05@gmail.com                | https://powerlearnproject-org.zoom.us/webinar/register/WN_ApmNWaNWRkSsdriWJt_c_A
 ------------------------------------------------------------------------------------------------------
 TUE | WEB DEVELOPMENT      | eddy@powerlearnproject.org            | https://powerlearnproject-org.zoom.us/webinar/register/WN_njXLeJrQTUSxyPimI0acQg
 ------------------------------------------------------------------------------------------------------
 WED | PYTHON DEVELOPMENT   | annebellewafula@powerlearnproject.org | https://powerlearnproject-org.zoom.us/webinar/register/WN_IwwgjWjkRlWK055J7mbHcA
 ------------------------------------------------------------------------------------------------------
-THU | DART WITH FLUTTER    |                                       | https://powerlearnproject-org.zoom.us/webinar/register/WN_ikV3SNVFS5qzDPA_gFO5ww
+THU | DART WITH FLUTTER    | allanlenkaa@powerlearnproject.org     | https://powerlearnproject-org.zoom.us/webinar/register/WN_ikV3SNVFS5qzDPA_gFO5ww
 ------------------------------------------------------------------------------------------------------
 FRI | DATABASE             | gerald@powerlearnproject.org          | https://powerlearnproject-org.zoom.us/webinar/register/WN_OEav9kj0SmKrYjYtvLCR6w
 ------------------------------------------------------------------------------------------------------
