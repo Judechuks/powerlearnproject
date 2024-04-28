@@ -1,0 +1,32 @@
+Question: Discuss in details what is a primary key and a foreign key
+
+Primary Key:
+A primary key is a crucial concept in relational databases. It serves as a unique identifier for each record (row) within a table.
+Key characteristics of a primary key:
+Uniqueness: Each value in the primary key column must be unique across all records in the table.
+Non-null: A primary key value cannot be NULL; it must have a valid value.
+Single Column or Composite: A primary key can consist of a single column or a combination of multiple columns (composite key).
+Example: Consider a “Students” table with a primary key column “StudentID.” Each student’s ID is unique, allowing efficient retrieval and referencing of student data.
+Foreign Key:
+A foreign key establishes a relationship between two tables within a relational database. It links data from one table to data in another.
+Key characteristics of a foreign key:
+Reference: A foreign key column in one table refers to the primary key column of another table.
+Enforces Referential Integrity: It ensures that data consistency is maintained across related tables.
+Example: Suppose we have a “Courses” table and a “Students” table. The “StudentID” column in the “Courses” table can be a foreign key referencing the “StudentID” primary key in the “Students” table. This linkage allows us to associate courses with specific students.
+Differences between Primary Key and Foreign Key:
+Uniqueness:
+Primary Key: Ensures uniqueness within the table where it resides.
+Foreign Key: Refers to a unique value in another table.
+Null Values:
+Primary Key: Cannot contain NULL values.
+Foreign Key: Can contain NULL values (if the relationship is optional).
+Number of Keys:
+Primary Key: Only one primary key allowed per table.
+Foreign Key: Multiple foreign keys can exist in a table.
+Constraints:
+Primary Key: Combines UNIQUE and NOT NULL constraints.
+Foreign Key: Enforces referential integrity but does not guarantee uniqueness.
+Deletion Behavior:
+Primary Key: Values cannot be deleted from the parent table.
+Foreign Key: Values can be deleted from the child table (referencing table).
+In summary, primary keys uniquely identify records within a table, while foreign keys establish relationships between tables. Both keys play essential roles in maintaining data integrity and ensuring efficient data retrieval in a relational database system
